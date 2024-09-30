@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "MERN STACK application for E-commerce Web Site",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "Techinfoyt",

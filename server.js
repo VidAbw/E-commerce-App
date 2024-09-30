@@ -1,13 +1,11 @@
-const express = require("express");
-const colors = require('colors')
+import express from "express";
+import colors from "colors";
 //rest object
 const app = express()
 
 //rest api
 app.get('/', (req,res) =>{
-    res.send({
-        message:"Welcome to ecommerce app"
-    })
+    res.send(<h1>Welcome to ecommerce app MERN STACK Project</h1>)
 })
 
 //PORT
