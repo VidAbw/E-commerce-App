@@ -5,7 +5,7 @@ const app = express()
 
 //rest api
 app.get('/', (req,res) =>{
-    res.send(<h1>Welcome to ecommerce app MERN STACK Project</h1>)
+    res.send("<h1>Welcome to ecommerce app MERN STACK Project</h1>")
 })
 
 //PORT
